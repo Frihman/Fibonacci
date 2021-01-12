@@ -10,8 +10,13 @@ namespace Fibonacci
     {
         static void Main(string[] args)
         {
-            int[] numbers = new int[21];
-            
+            StartSequence(21);
+        }
+
+        static void StartSequence(int length)
+        {
+            int[] numbers = new int[length];
+
             Console.WriteLine(numbers[0] = 0);
             Console.WriteLine(numbers[1] = 1);
 
